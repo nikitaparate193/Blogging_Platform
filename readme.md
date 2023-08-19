@@ -20,6 +20,9 @@
    8. Get All Users
    9. Follow User
    10. Update Blog Post
+   11. SignOut Blog User
+   12. Unfollow User
+   13. Authorize Unfollow
 
   * **PostService**
 
@@ -34,6 +37,8 @@
 
    1. Start Following
    2. Is Follow Allowed
+   3. Find Follow
+   4. Unfollow
 
    * **CommentService**
 
@@ -45,6 +50,7 @@
 
    1. Authenticate
    2. Save AuthToken
+   3. remove token
 
 * **Repository**
 
@@ -53,6 +59,7 @@
 ## **DataBase Design**
 
 ![DataBase Design](EER-BloggingApi.png)
+![Program State](Program-running.png)
 
 ## **Data Structure used in your project**
 * Arraylist
@@ -68,5 +75,9 @@
 * Any user can delete his comment.
 
 This is a brief summary of my project where we can perform all these task smoothly and efficiently.
+
+## **Video Explanation link**
+
+**https://drive.google.com/file/d/1uyqvKocq5YOGLff6RKIqetMhuYasVak6/view?usp=sharing**
 
 
